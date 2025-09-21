@@ -20,6 +20,25 @@ header {
 header img {
   max-width: 150px;
 }
+/* Стиль для О нас */
+.principles-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.principles-list li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.principles-list li strong {
+  display: block;
+  font-weight: bold;
+  color: #ff6b6b; /* Акцентный цвет */
+}
 
 /* Навигация */
 nav a {
